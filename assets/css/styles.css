@@ -20,6 +20,10 @@
   left: 0;
 }
 
+#hamburger {
+  font-size: 30px;
+}
+
 .logo {
   font-size: 25px;
   font-weight: 600;
@@ -57,5 +61,17 @@
     display: flex;
     gap: 20px;
     align-items: center;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 20%;
+    padding: 10px;
+  }
+
+  .nav-link:hover {
+    background-color: #f1f1f1;
+    color: orangered;
   }
 }
