@@ -45,7 +45,9 @@
 
 .main-content {
   padding: 5px;
-  margin-top: 70px;
+  margin-top: 65px;
+  background: url("../images/club-hero.jpg") no-repeat 100% / cover;
+  height: 90vh;
 }
 
 @media screen and (min-width: 768px) {
@@ -73,5 +75,9 @@
   .nav-link:hover {
     background-color: #f1f1f1;
     color: orangered;
+  }
+
+  .main-content {
+    margin-top: 60px;
   }
 }
