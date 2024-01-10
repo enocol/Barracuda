@@ -13,7 +13,7 @@
   padding: 15px;
   max-height: 90px;
   background-color: #fff;
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   border: 1px solid gray;
@@ -33,21 +33,109 @@
   display: none;
 }
 
+#nav-list a {
+  color: black;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
-  padding: 10px;
-  background-color: #fff;
+  padding: 5px;
+  background-color: rgba(88, 74, 209, 0.733);
   border: 1px solid gray;
+  max-height: 40px;
 }
 
 .main-content {
   padding: 5px;
   margin-top: 65px;
   background: url("../images/club-hero.jpg") no-repeat 15% 100% / cover;
-  height: 90vh;
+  height: 70vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: relative;
+}
+
+.main-text {
+  font-size: 150%;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.social-list i {
+  font-size: 20px;
+  color: black;
+}
+
+.social-list li:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+  color: orangered;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  border-radius: 5%;
+  padding: 5px;
+}
+
+.container h1 {
+  font-size: 170%;
+  font-weight: 600;
+  width: 90%;
+  height: auto;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.container p {
+  font-size: 120%;
+  text-align: start;
+  padding: 10px;
+  color: #fff;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 85px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#signup,
+#join {
+  width: 100px;
+  height: 30px;
+  border-radius: 5%;
+  background-color: goldenrod;
+  padding: 5px;
+}
+
+@media screen and (min-width: 375px) {
+  .absolute {
+    position: absolute;
+    bottom: 135px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 100px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -75,9 +163,59 @@
   .nav-link:hover {
     background-color: #f1f1f1;
     color: orangered;
+    text-decoration: underline;
   }
 
   .main-content {
     margin-top: 60px;
+  }
+
+  .active {
+    text-decoration: underline;
+  }
+
+  .content {
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+  }
+
+  .container {
+    width: 60%;
+    padding: 5px;
+    border-radius: 0%;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .absolute {
+    position: absolute;
+    bottom: 120px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-content {
+    margin-top: 60px;
+  }
+
+  .content {
+    padding: 5px;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    min-height: 50vh;
+  }
+
+  .absolute {
+    position: absolute;
+    bottom: 120px;
+    padding-right: 100px;
+    bottom: 200px;
   }
 }
