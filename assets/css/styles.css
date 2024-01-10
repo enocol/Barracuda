@@ -46,7 +46,7 @@
 .main-content {
   padding: 5px;
   margin-top: 65px;
-  background: url("../images/club-hero.jpg") no-repeat 100% / cover;
+  background: url("../images/club-hero.jpg") no-repeat 15% 100% / cover;
   height: 90vh;
 }
 
