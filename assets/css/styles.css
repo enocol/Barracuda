@@ -39,7 +39,7 @@
   width: 100%;
   text-align: center;
   padding: 10px;
-  background-color: #fff;
+  background-color: rgba(88, 74, 209, 0.733);
   border: 1px solid gray;
 }
 
@@ -48,6 +48,17 @@
   margin-top: 65px;
   background: url("../images/club-hero.jpg") no-repeat 15% 100% / cover;
   height: 90vh;
+}
+
+.main-text {
+  font-size: 150%;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  width: 70%;
 }
 
 @media screen and (min-width: 768px) {
@@ -75,9 +86,14 @@
   .nav-link:hover {
     background-color: #f1f1f1;
     color: orangered;
+    text-decoration: underline;
   }
 
   .main-content {
     margin-top: 60px;
+  }
+
+  .active {
+    text-decoration: underline;
   }
 }
