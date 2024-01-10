@@ -130,11 +130,15 @@
 @media screen and (min-width: 375px) {
   .absolute {
     position: absolute;
-    bottom: 135px;
+    bottom: 115px;
     display: flex;
     justify-content: flex-end;
     gap: 20px;
-    padding-right: 100px;
+    right: 85px;
+  }
+
+  .container {
+    margin-top: 20px;
   }
 }
 
@@ -195,7 +199,8 @@
     display: flex;
     justify-content: flex-end;
     gap: 20px;
-    padding-right: 100px;
+    width: 60%;
+    right: 100px;
   }
 }
 
@@ -214,8 +219,8 @@
 
   .absolute {
     position: absolute;
-    bottom: 120px;
     padding-right: 100px;
     bottom: 200px;
+    right: 250px;
   }
 }
