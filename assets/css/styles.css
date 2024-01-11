@@ -254,6 +254,16 @@
   }
 }
 
+@media screen and (min-width: 425px) {
+  .absolute {
+    bottom: 150px;
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .navbar {
     display: block;
