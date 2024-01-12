@@ -21,3 +21,7 @@ Our online shop provides all suba diving related products such as goggles , snor
 
 ## Book a boat 
 This is realtime service intended to provide cutomers to see wwhich boats are currently active and they can choose to book themselves on one of them. Boat informations provide real time rates and pick up and drop off location.
+
+
+## Some exciting places 
+This section include a photo gallery of all of our 19 diving destinations. The customer will be able to click on the pucture and a new link will open with a full description of that place, all the photos and videos taken there and it will also tell you when is going to be the next trip and booking availability. Our 19 destinations are: Tuamotu Archipelago, French Polynesia , Palau, Raja Ampat Islands, Indonesia, Maldives , Azores, Portugal , Tobago, Galapagos Islands, Cocos Islands, Costa Rica, Socorro and Revillagigedo Islands, Mexico , Baja California Sur, Mexico, The Bahamas, The Florida Keys, United States, Poor Knights Islands, New Zealand , Fiji , Heron Island, Australia , Chuuk Lagoon, Micronesia, Red Sea, Egypt , Tubbataha Reef Marine Park, Philippines, The Cayman Islands.
