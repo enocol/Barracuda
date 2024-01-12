@@ -159,12 +159,13 @@
 #join {
   width: 100px;
   height: 30px;
-  border-radius: 2%;
+  border-radius: 10px;
   background-color: goldenrod;
   padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid goldenrod;
 }
 
 #join:hover {
@@ -278,7 +279,7 @@
 
 @media screen and (min-width: 400px) {
   .absolute {
-    bottom: 150px;
+    bottom: 200px;
   }
 
   .container {
