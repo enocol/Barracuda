@@ -23,12 +23,13 @@
 }
 
 #hamburger {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .logo {
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Bungee Spice", sans-serif;
 }
 
 #toggle-menu {
@@ -302,6 +303,7 @@
 
   .logo {
     width: 50%;
+    font-size: 30px;
   }
 
   #hamburger {
