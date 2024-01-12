@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Title to be changed</title>
     <link rel="stylesheet" href="assets/css/stylesignup.css" />
-             
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -17,48 +18,50 @@
   <body>
     <header id="header">
       <div class="logo">Barcuda scuba diving</div>
-      <div id="hamburger">
-        <i class="fa-solid fa-bars"></i>
-      </div>
+      <input type="checkbox" id="toggle-menu" name="toggle-menu" />
+      <label for="toggle-menu" class="toggle-label">
+        <i class="fa-solid fa-bars" id="hamburger"></i>
+      </label>
       <nav class="navbar">
         <ul id="nav-list">
-          <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
-          <li class="nav-item">
-            <a href="./travel.html" class="nav-link">Travel</a>
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="./Gallery.html" class="nav-link">Galery</a>
+            <a href="Gallery.html" class="nav-link">Galery</a>
           </li>
           <li class="nav-item">
-            <a href="./courses.html" class="nav-link">Courses</a>
+            <a href="courses.html" class="nav-link">Courses</a>
           </li>
-          <li class="nav-item"><a href="#" class="nav-link">Sign Up</a></li>
+          <li class="nav-item">
+            <a href="signup.html" class="nav-link">Sign Up</a>
+          </li>
         </ul>
       </nav>
     </header>
     <section>
-    <div class="container">
-        <i style="--clr:#00ff0a;"></i>
-        <i style="--clr:#ff0057;"></i>
-        <i style="--clr:#fffd44;"></i>
-        <div class ="login">
-            <h2>Login</h2>
-            <div class="inputBx">
-                <input type="text" placeholder="Username">
-            </div>
-            <div class="inputBx">
-                <input type="text" placeholder="Password">
-            </div>
-            <div class="inputBx">
-                <input type="submit" value="Sign in">
-            </div>
-            <div class ="links">
-                <a href="#">Forget Password</a>
-                <a href="#">Signup</a>
-            </div>
-        </div> 
-    </div>
-    </section>      
+      <div class="container">
+        <i style="--clr: #00ff0a"></i>
+        <i style="--clr: #ff0057"></i>
+        <i style="--clr: #fffd44"></i>
+        <div class="login">
+          <h2>Login</h2>
+          <div class="inputBx">
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="inputBx">
+            <input type="text" placeholder="Password" />
+          </div>
+          <div class="inputBx">
+            <input type="submit" value="Sign in" />
+          </div>
+          <div class="links">
+            <a href="#">Forget Password</a>
+            <a href="#">Signup</a>
+          </div>
+        </div>
+      </div>
+    </section>
     <footer class="footer">
       <ul class="social-list">
         <li class="socials">
